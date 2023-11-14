@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Personal Information Card</title>
+     <style>
+         * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+         }
+         
+         body {
+                background: url('https://i.imgur.com/EXelmvX.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                height: 100vh;
+                width: 100vw;
+                font-family: 'Roboto', sans-serif;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+         
+         #logo {
+             width: 200px;
+             margin-bottom: 20px;
+         }
+         
+         #avatar {
+             width: 250px;
+             height: 250px;
+             border-radius: 50%;
+             margin-bottom: 20px;
+         }
+         
+         .left-column {
+             width: 300px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             border-right: 1px solid rgba(255, 255, 255, 0.2);
+             padding-right: 30px;
+         }
+         
+         .right-column {
+             width: 470px;
+             margin-left: 30px;
+         }
+         .card {
+             background-image: url('https://th.bing.com/th/id/R.4615009f06b7e83b63ac2c856726d54a?rik=pNPCX0jumSJXfA&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fwhale-fantasy-digital-art-p9.jpg&ehk=R0yNO3oCWONmPzB6NO4VEgXqINL2Tnois6Lro15V3tM%3d&risl=&pid=ImgRaw&r=0.jpg');
+             box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+             backdrop-filter: blur(50px);
+             width: 900px;
+             height: 600px;
+             padding: 50px;
+             border-radius: 12px;
+             display: flex;
+             justify-content: space-between;
+         }
+         
+         h1 {
+             margin-bottom: 10px;
+         }
+         h2 {
+            margin-bottom: 10px;
+            color : red
+         }
+         
+         p {
+             font-size: 20px;
+             line-height: 1.4;
+         }
+         
+         a {
+             color: white;
+         }
+         
+         .section {
+             margin-bottom: 10px;
+         }
+         
+         main {
+             height: 100%;
+             width: 100%;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+
+        .social-link {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px; /* Adjust the spacing between social links */
+        }
+
+        .social-img {
+            width: 25px; /* Adjust the width as needed */ /* To maintain the aspect ratio */
+            cursor: pointer;
+        }
+
+        .social-text {
+            margin-left: 10px; 
+            font-size: 18px; 
+            color: #555555; 
+        }
+        .damn {
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: oblique;
+            color: black ;  
+        }
+        .text-box {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border: 2px solid #3498db;
+            border-radius: 20px;
+            word-wrap: break-word;
+            background-color: white  ;
+        }
+        .d {
+            font-weight: bold;
+            font-style: oblique;
+        }
+     </style>
+ </head>
+ <body>
+     <main>
+         <div class="card">
+             
+             <!-- Left Column -->
+             <div class="left-column">
+                 <!-- Content for left column goes here -->
+                 <img id="logo"
+                     src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" />
+                 <img id="avatar" src="https://i.pinimg.com/originals/9f/00/7a/9f007aa80070611a1b087283bc03b3c5.png" alt="" />
+                 <div class="highlights">
+                     <h1>Lê Bảo Long</h1>
+                     <p> <span class="d">TTNT2023</span></p>
+                     <p><span class="d">University of Information Technology, VNUHCM</span></p>
+                     <p><span class="d">From Binh Dinh Province</span></p>
+                 </div>
+             </div>
+             
+             <!-- Right Column -->
+             <div class="right-column">
+                 <!-- Content for right column goes here -->
+
+                <div class="text-box">
+                 <div class="section">
+                     <h2>About Me</h2>
+                     <span class="damn">
+                        <p>
+                     Thằng nhóc 17 tuổi có quá nhiều tham vọng nhưng thiếu đi sự may mắn...
+                     </p>
+                     </span>
+                     </div>
+                 
+                 <div class="section">
+                     <h2>My Hobbies</h2>
+                     <span class="damn">
+                        <p>
+                         -Ngủ<br>
+                        -Chạy bộ<br>
+                        -Đọc sách<br>
+                        -Chơi game<br>
+                        </p>
+                     </span>
+                 </div>
+                 <div class="section">
+                     <h2>My Future Goals</h2>
+                     <span class="damn">
+                        <p>
+                     -Có nhiều mối quan hệ hơn<br>
+                     -Không bị nợ 1 môn nào<br>
+                     -Ra trường đúng hạn<br>
+                     </p>
+                     </span>
+                 </div>
+                 <div class="contacts">
+                    <h2> Contact
+                    </h2>
+                    <a href="https://www.facebook.com/long.lebao.96780/" class="social-link" target="_blank">
+                        <img src="https://i.pinimg.com/originals/d8/87/f2/d887f2d42c939ff737aaf0172a99f6d6.png" alt="Facebook Logo" class="social-img">
+                        <span class="social-text">Facebook </span>
+                    </a>
+            
+                    <!-- Gmail Link -->
+                    <a href="mailto:lebaolong74@gmail.com" class="social-link" target="_blank">
+                        <img src="https://i.pinimg.com/originals/86/04/70/8604708a5c05af1ec1f45443d577afee.png" alt="Gmail Logo" class="social-img">
+                        <span class="social-text">Gmail</span>
+                    </a>
+            
+                    <!-- GitHub Link -->
+                    <a href="https://github.com/longle325" class="social-link" target="_blank">
+                        <img src="https://i.pinimg.com/originals/a1/79/f8/a179f87f8c00fa6e401cdd2e72eecb72.png" alt="GitHub Logo" class="social-img">
+                        <span class="social-text">GitHub</span>
+                    </a>
+                </div>
+                </div>
+             </div>
+             
+         </div>
+     </main>
+ </body>
+ </html> 
